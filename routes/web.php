@@ -19,6 +19,12 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/list', function () {
+    return view('application/listdata', [
+        "title" => 'List Data'
+    ]);
+});
+
 Route::get('/lowongan', function () {
     return view('application/jobs', [
         "title" => 'Lowongan'

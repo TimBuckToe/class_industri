@@ -26,6 +26,10 @@
                     <a class="nav-link {{ $title === 'Beranda' ? 'active fw-bold' : '' }}" href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {{ $title === 'List Data' ? 'active fw-bold' : '' }}" href="/list">
+                        List Data</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {{ $title === 'Lowongan' ? 'active fw-bold' : '' }}"
                         href="/lowongan">Lowongan</a>
                 </li>

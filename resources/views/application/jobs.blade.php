@@ -3,10 +3,12 @@
 @section('content')
     <div class="content">
         <div class="d-flex justify-content-between mx-5 mt-5 px-5">
-            <div>
-                <h5 class="font-weight-bold"><i class="fas fa-arrow-left fa-xs me-2">
-                    </i>DAFTAR LOWONGAN PEKERJAAN</h5>
-            </div>
+            <h5>
+                <div class="fw-blood">
+                    <i class="fa-solid fa-arrow-left me-2">
+                    </i>DAFTAR LOWONGAN PEKERJAAN
+                </div>
+            </h5>
             <div>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
